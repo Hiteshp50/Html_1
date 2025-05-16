@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form action="mailto:hiteshpant50@gmail.com" enctype="text/plain" method="post">
+
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="mail" placeholder="@example.com" id="email">
+            <!-- <input type="" accept=""> -->
+        </p>
+        <p>
+            <label for="username">Username</label>
+            <input type="username" name="username" placeholder="John" id="username">
+        </p>
+
+        <p>
+            <label for="male">Male</label>
+            <input value="male" type="radio" name="gender" id="male">
+
+            <label for="female">female</label>
+            <input value="female" type="radio" name="gender" id="female">
+        </p>
+        <p>
+            <h3>Select Your habbits</h3>
+            <label for="dace">Dacnce</label>
+            <input value="singing" type="checkbox" name="habbits" id="male">
+
+            <label for="female">singing</label>
+            <input value="female" type="checkbox" name="habbits" id="female">
+        </p>
+
+        <p>
+            <h3>Select Your Country</h3>
+            <select name="country" id="country">
+                <option value="nepal">Nepal</option>
+                <option value="india">India</option>
+                <option value="us">USA</option>
+                <option value="uk">UK</option>
+
+                <optgroup>
+                    <option value="nepal">Neapl</option>
+                    <option value="uk">UK</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <textarea cols="30" name="msg" id="" placeholder="type mesage">
+            </textarea>
+        </p>
+        <p>
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+        </p>
+
+        
+        <button>Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>
